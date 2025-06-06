@@ -125,10 +125,10 @@ table {
 /* ? code */
 
 :root {
-  --button-color: #000000;
   --bg-color: #e5e5e5;
-  --container-color: #ffffff;
+  --button-color: #000000;
   --icon-color: #ffea9f;
+  --container-color: #ffffff;
 }
 
 .mainContainer {

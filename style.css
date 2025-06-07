@@ -124,56 +124,45 @@ table {
 }
 /* ? code */
 
-:root {
-  --bg-color: #e5e5e5;
-  --button-color: #000000;
-  --icon-color: #ffea9f;
-  --container-color: #ffffff;
-}
-
-.mainContainer {
+.popupContainer {
+  display: flex;
   max-width: 1440px;
   height: 100%;
-  background-color: var(--bg-color);
-  margin-top: 200px;
+  background-color: #ffffff;
 }
 .container {
+  background-color: ;
   width: 510px;
   height: 299px;
-  background-color: var(--container-color);
-  margin: 0 auto;
-  padding-top: 10px;
-  border-radius: 20px;
+  margin: 10px auto;
 }
-.logoContainer {
-  border-radius: 50px;
-  background-color: var(--icon-color);
+.logo {
   display: flex;
+  background-color: #ffea9f;
+  border-radius: 50px;
   margin: 0 auto;
 }
 .container p {
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
   font-size: 24px;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
 }
-.thanksBtn {
-  width: 248px;
-  height: 48px;
-  background-color: var(--button-color);
+.thanksButton {
   display: flex;
-  margin: 0 auto;
   justify-content: center;
-  margin-top: 30px;
-  padding-top: 15px;
+  background-color: black;
+  color: #ffffff;
   font-weight: bold;
-  color: var(--container-color);
-  cursor: pointer;
-  border-radius: 10px;
+  gap: 10px;
+  width: 248px;
+  height: 50px;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-radius: 15px;
+  margin: 0 auto;
 }
-.closeBtn {
+.off {
+  margin-left: 450px;
   width: 24px;
   height: 24px;
-  margin-left: 450px;
 }
